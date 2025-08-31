@@ -17,6 +17,7 @@
     "aos": "^2.3.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
     "react-scroll-motion": "^0.3.5",
     "tailwindcss": "^4.1.12"
   },
