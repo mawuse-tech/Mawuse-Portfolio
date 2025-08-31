@@ -21,6 +21,7 @@ const Aboutme = () => {
                     <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4 text-center">
                         ABOUT ME
                     </h2>
+                    
                     <p className="text-gray-300 text-lg text-center">
                         Hi there! I’m Mawuse Akpeke, a passionate Full Stack developer with a love for crafting intuitive and engaging web applications. With a background in information studies, I thrive on turning ideas into reality through code.
 
