@@ -9,9 +9,9 @@ const Navbar = () => {
           <span className="text-[#F0B90B] font-bold text-lg">MAWUSE-AKPEKE.</span>
         </div>
         <div className="space-x-4">
-          <a href="#" className="text-gray-300 hover:text-white">Buy Crypto</a>
-          <a href="#" className="text-gray-300 hover:text-white">Markets</a>
-          <a href="#" className="text-gray-300 hover:text-white">Internal Page</a>
+          <a href="#" className="text-gray-300 hover:text-white">About</a>
+          <a href="#" className="text-gray-300 hover:text-white">Works</a>
+          <a href="#" className="text-gray-300 hover:text-white">Articles</a>
         </div>
       </div>
     </nav>
