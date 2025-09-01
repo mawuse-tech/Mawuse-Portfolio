@@ -9,7 +9,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-[#181A20] text-white min-h-screen flex items-center justify-center">
+    <div id='home' className="bg-[#181A20] text-white min-h-screen flex items-center justify-center">
       <div className="container mx-auto p-8 flex flex-col md:flex-row items-center justify-between">
 
         {/* Text Section */}

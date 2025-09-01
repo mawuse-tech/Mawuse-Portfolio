@@ -99,7 +99,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-[#181A20] py-16 px-4 sm:px-6 lg:px-8">
+    <div id="project" className="bg-[#181A20] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center mb-12" data-aos="fade-down">
         <h2 className="text-white text-4xl sm:text-5xl font-bold mb-4">MY RECENT PROJECTS</h2>
         <p className="text-gray-400 text-lg max-w-3xl mx-auto">

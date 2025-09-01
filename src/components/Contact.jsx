@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#181A20] text-white min-h-screen flex items-center justify-center py-16 px-4">
+    <div id='contact' className="bg-[#181A20] text-white min-h-screen flex items-center justify-center py-16 px-4">
       <Toaster position="top-right" />
       <div
         className="container mx-auto max-w-4xl p-8 bg-[#24262B] rounded-2xl shadow-xl border border-gray-700"

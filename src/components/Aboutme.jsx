@@ -9,7 +9,7 @@ const Aboutme = () => {
     }, []);
 
     return (
-        <div className="bg-[#181A20] py-16 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+        <div id='about' className="bg-[#181A20] py-16 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
             <div
                 className="bg-[#24262B] rounded-2xl p-6 sm:p-8 md:p-10 lg:p-12 max-w-5xl mx-auto
                   flex flex-col md:flex-row items-center justify-between shadow-xl

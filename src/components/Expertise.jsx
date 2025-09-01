@@ -23,7 +23,7 @@ const Expertise = () => {
   }, []);
 
   return (
-    <div className="bg-[#181A20] text-white py-16 px-4">
+    <div id="expertise" className="bg-[#181A20] text-white py-16 px-4">
       <h2
         className="text-white text-3xl sm:text-4xl font-bold mb-4 text-center"
         data-aos="fade-down"

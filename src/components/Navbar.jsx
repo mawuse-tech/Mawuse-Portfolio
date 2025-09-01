@@ -16,10 +16,11 @@ const Navbar = () => {
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-6 lg:space-x-8 items-center">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Home</a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Projects</a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">About</a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
+          <a href="#home" className="text-gray-400 hover:text-white transition-colors duration-300">Home</a>
+          <a href="#about" className="text-gray-400 hover:text-white transition-colors duration-300">About</a>
+          <a href="#expertise" className="text-gray-400 hover:text-white transition-colors duration-300">Expertise</a>
+          <a href="#project" className="text-gray-400 hover:text-white transition-colors duration-300">Projects</a>
+          <a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
         </div>
 
         {/* Mobile Hamburger Menu Button */}
@@ -36,10 +37,15 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden mt-4">
           <div className="flex flex-col space-y-4 items-center">
-            <a href="#" className="block text-gray-400 hover:text-white transition-colors duration-300">Home</a>
-            <a href="#" className="block text-gray-400 hover:text-white transition-colors duration-300">Projects</a>
-            <a href="#" className="block text-gray-400 hover:text-white transition-colors duration-300">About</a>
-            <a href="#" className="block text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
+            <a href="#home" className="block text-gray-400 hover:text-white transition-colors duration-300">Home</a>
+            
+            <a href="#about" className="block text-gray-400 hover:text-white transition-colors duration-300">About</a>
+
+            <a href="#expertise" className="block text-gray-400 hover:text-white transition-colors duration-300">Expertise</a>
+
+            <a href="#project" className="block text-gray-400 hover:text-white transition-colors duration-300">Projects</a>
+
+            <a href="#contact" className="block text-gray-400 hover:text-white transition-colors duration-300">Contact</a>
           </div>
         </div>
       )}
