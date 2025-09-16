@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import one from '../assets/one.png'
 import two from '../assets/two.png'
 import three from '../assets/three.png'
-import four from '../assets/four.png'
+import four from '../assets/auth.png'
 import five from '../assets/five.png'
 import six from '../assets/six.png'
 
@@ -60,10 +60,20 @@ const Projects = () => {
       imageSrc: two,
       title: "Agric E-commerce App",
       description: "",
-      date: "Built with React, Tailwind and Paystack",
+      date: "Built with React, Tailwind, mongoose and Paystack",
       status: "View project",
       link: "https://eagleparkinno.netlify.app/"
     },
+
+    {
+      imageSrc: four,
+      title: "Authentication project",
+      description: "",
+      date: "Built with React, Tailwind, Node.js and Mongoose",
+      status: "View project",
+      link: "https://esseauth.netlify.app/"
+    },
+
     {
       imageSrc: three,
       title: "An Engineering Website",
@@ -72,14 +82,7 @@ const Projects = () => {
       status: "View project",
       link: "https://oyibo.netlify.app/"
     },
-    {
-      imageSrc: four,
-      title: "A Cookie App",
-      description: "",
-      date: "Built with Javascript, Html and CSS",
-      status: "View project",
-      link: "https://essecookies.netlify.app/"
-    },
+    
     {
       imageSrc: five,
       title: "A Rental App",
