@@ -2,9 +2,10 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faJs, faNodeJs } from "@fortawesome/free-brands-svg-icons";
-import { faWind, faProjectDiagram, faServer } from "@fortawesome/free-solid-svg-icons";
+import { faWind, faProjectDiagram, faServer, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { BsDatabase } from "react-icons/bs";
 
 const Card = ({ icon, title, content, aosType }) => (
   <div
@@ -68,6 +69,24 @@ const Expertise = () => {
             icon={faServer}
             title="Express.js"
             content="Creating RESTful APIs and server-side applications with Express.js."
+            aosType="fade-up"
+          />
+          <Card
+            icon={faDatabase}
+            title="MongoDB"
+            content="Efficiently stores and manages flexible JSON-like data for modern applications."
+            aosType="fade-up"
+          />
+          <Card
+            icon={faDatabase}
+            title="Postgres"
+            content="A powerful open-source relational database system for storing and managing structured data efficiently"
+            aosType="fade-up"
+          />
+          <Card
+            icon={faDatabase}
+            title="MySQL"
+            content="Relational database for efficiently storing, organizing, and querying structured data."
             aosType="fade-up"
           />
         </div>
