@@ -54,7 +54,7 @@ const Projects = () => {
       description: "",
       date: "Built with React, Tailwind, NodeJs and Mongoose",
       status: "View project",
-      link: "https://sist.netlify.app/"
+      link: "https://sisters-backend.onrender.com"
     },
     {
       imageSrc: two,
