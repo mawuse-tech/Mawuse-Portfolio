@@ -50,7 +50,7 @@ const Projects = () => {
   const cardsData = [
     {
       imageSrc: one,
-      title: "Sister Sister App",
+      title: "Sisters App",
       description: "",
       date: "Built with React, Tailwind, NodeJs and Mongoose",
       status: "View project",
