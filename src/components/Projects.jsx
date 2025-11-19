@@ -8,6 +8,7 @@ import three from '../assets/three.png'
 import four from '../assets/auth.png'
 import five from '../assets/five.png'
 import six from '../assets/six.png'
+import sev from '../assets/sev.png'
 
 const Card = ({ imageSrc, title, description, date, status, link, aosType, delay }) => {
   return (
@@ -73,6 +74,14 @@ const Projects = () => {
       status: "View project",
       link: "https://esseauth.netlify.app/"
     },
+    {
+      imageSrc: sev,
+      title: "Shift scheduling App",
+      description: "",
+      date: "Log in with email:admin@gmail.com pass:12345",
+      status: "View project",
+      link: "https://shift-app-backend-ke7c.onrender.com/"
+    },
 
     {
       imageSrc: three,
@@ -91,14 +100,7 @@ const Projects = () => {
       status: "View project",
       link: "https://renteaze.netlify.app/"
     },
-    {
-      imageSrc: six,
-      title: "A Movie Site",
-      description: "",
-      date: "Built with React and IMDb Api",
-      status: "View project",
-      link: "https://movie-site.com"
-    },
+    
   ];
 
   return (
