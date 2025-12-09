@@ -80,7 +80,7 @@ const Projects = () => {
       description: "",
       date: "Log in with email:admin@gmail.com pass:12345",
       status: "View project",
-      link: "https://shift-app-backend-ke7c.onrender.com/"
+      link: "https://shift-app-backend-production.up.railway.app/"
     },
 
     {
