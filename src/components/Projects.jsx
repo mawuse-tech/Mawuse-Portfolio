@@ -80,7 +80,7 @@ const Projects = () => {
       description: "",
       date: "Log in with email:admin@gmail.com pass:12345",
       status: "View project",
-      link: "https://shift-app-backend-production.up.railway.app/"
+      link: "https://sched.up.railway.app/"
     },
 
     {
