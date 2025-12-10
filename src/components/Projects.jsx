@@ -63,7 +63,7 @@ const Projects = () => {
       description: "",
       date: "Built with React, Tailwind, mongoose and Paystack",
       status: "View project",
-      link: "https://eagleparkinno.netlify.app/"
+      link: "https://www.eagleparkinnovations.com/"
     },
 
     {
