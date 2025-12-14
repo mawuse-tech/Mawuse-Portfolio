@@ -50,20 +50,21 @@ const Projects = () => {
 
   const cardsData = [
     {
-      imageSrc: one,
-      title: "Sisters App",
-      description: "",
-      date: "Built with React, Tailwind, NodeJs and Mongoose",
-      status: "View project",
-      link: "https://sisters-backend.onrender.com"
-    },
-    {
       imageSrc: two,
       title: "Agric E-commerce App",
       description: "",
       date: "Built with React, Tailwind, mongoose and Paystack",
       status: "View project",
       link: "https://www.eagleparkinnovations.com/"
+    },
+    
+    {
+      imageSrc: one,
+      title: "Sisters App",
+      description: "",
+      date: "Built with React, Tailwind, NodeJs and Mongoose",
+      status: "View project",
+      link: "https://sisters-backend.onrender.com"
     },
 
     {
