@@ -87,9 +87,9 @@ const Contact = () => {
               <div>
                 <h4 className="text-gray-300 font-semibold">Socials</h4>
                 <div className="flex space-x-4 mt-1">
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">LinkedIn</a>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">GitHub</a>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">Twitter</a>
+                  <a href="https://www.linkedin.com/in/mawuse-akpeke-aa28a8245/" className="text-gray-400 hover:text-white transition-colors duration-300">LinkedIn</a>
+                  <a href="https://github.com/mawuse-tech" className="text-gray-400 hover:text-white transition-colors duration-300">GitHub</a>
+                 
                 </div>
               </div>
             </div>
