@@ -67,20 +67,21 @@ const Projects = () => {
     },
 
     {
-      imageSrc: four,
-      title: "Authentication project",
-      description: "",
-      date: "Built with React, Tailwind, Node.js and Mongoose",
-      status: "View project",
-      link: "https://esseauth.netlify.app/"
-    },
-    {
       imageSrc: sev,
       title: "Shift scheduling App",
       description: "",
       date: "Log in with email:admin@gmail.com pass:12345",
       status: "View project",
       link: "https://sche.up.railway.app/"
+    },
+
+    {
+      imageSrc: four,
+      title: "Authentication project",
+      description: "",
+      date: "Built with React, Tailwind, Node.js and Mongoose",
+      status: "View project",
+      link: "https://esseauth.netlify.app/"
     },
 
     {
