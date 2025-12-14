@@ -23,7 +23,7 @@ const Aboutme = () => {
                     </h2>
                     
                     <p className="text-gray-300 text-lg text-center">
-                        Hi there! I’m Mawuse Akpeke, a passionate Full Stack developer with a love for crafting intuitive and engaging web applications. With a background in information studies, I thrive on turning ideas into reality through code.
+                        Hi there! I’m a passionate Full Stack developer with a love for crafting intuitive and engaging web applications. With a background in information studies, I thrive on turning ideas into reality through code.
 
                         I’m continuously learning and exploring new technologies. My goal is to create seamless user experiences while contributing to meaningful projects. I’m also passionate about empowering young women who look up to me, inspiring them to explore opportunities in tech and beyond. When I’m not coding, you can find me designing clothing, always looking for inspiration in the world around me. I believe in the power of collaboration and I am excited to connect with like-minded individuals. Let’s bring your ideas to life together!
                     </p>
