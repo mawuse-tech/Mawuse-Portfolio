@@ -7,7 +7,6 @@ import two from '../assets/two.png'
 import three from '../assets/three.png'
 import four from '../assets/auth.png'
 import five from '../assets/five.png'
-import six from '../assets/six.png'
 import sev from '../assets/sev.png'
 
 const Card = ({ imageSrc, title, description, date, status, link, aosType, delay }) => {
@@ -55,7 +54,7 @@ const Projects = () => {
       description: "",
       date: "Built with React, Tailwind, mongoose and Paystack",
       status: "View project",
-      link: "https://www.eagleparkinnovations.com/"
+      link: "https://eaginn.netlify.app/"
     },
     
     {
