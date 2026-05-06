@@ -5,9 +5,9 @@ import "aos/dist/aos.css";
 import one from '../assets/one.png'
 import two from '../assets/two.png'
 import three from '../assets/three.png'
-import four from '../assets/auth.png'
-import five from '../assets/five.png'
-import sev from '../assets/sev.png'
+// import four from '../assets/auth.png'
+// import five from '../assets/five.png'
+// import sev from '../assets/sev.png'
 
 const Card = ({ imageSrc, title, description, date, status, link, aosType, delay }) => {
   return (
@@ -66,23 +66,23 @@ const Projects = () => {
       link: "https://sisters-backend.fly.dev/"
     },
 
-    {
-      imageSrc: sev,
-      title: "Shift scheduling App",
-      description: "",
-      date: "Log in with email:admin@gmail.com pass:12345",
-      status: "View project",
-      link: "https://sche.up.railway.app/"
-    },
+    // {
+    //   imageSrc: sev,
+    //   title: "Shift scheduling App",
+    //   description: "",
+    //   date: "Log in with email:admin@gmail.com pass:12345",
+    //   status: "View project",
+    //   link: "https://sche.up.railway.app/"
+    // },
 
-    {
-      imageSrc: four,
-      title: "Authentication project",
-      description: "",
-      date: "Built with React, Tailwind, Node.js and Mongoose",
-      status: "View project",
-      link: "https://esseauth.netlify.app/"
-    },
+    // {
+    //   imageSrc: four,
+    //   title: "Authentication project",
+    //   description: "",
+    //   date: "Built with React, Tailwind, Node.js and Mongoose",
+    //   status: "View project",
+    //   link: "https://esseauth.netlify.app/"
+    // },
 
     {
       imageSrc: three,
@@ -93,14 +93,14 @@ const Projects = () => {
       link: "https://oyibo.netlify.app/"
     },
     
-    {
-      imageSrc: five,
-      title: "A Rental App",
-      description: "",
-      date: "Built with React, NodeJs and Mongoose",
-      status: "View project",
-      link: "https://renteaze.netlify.app/"
-    },
+    // {
+    //   imageSrc: five,
+    //   title: "A Rental App",
+    //   description: "",
+    //   date: "Built with React, NodeJs and Mongoose",
+    //   status: "View project",
+    //   link: "https://renteaze.netlify.app/"
+    // },
     
   ];
 
