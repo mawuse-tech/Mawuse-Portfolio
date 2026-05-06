@@ -63,7 +63,7 @@ const Projects = () => {
       description: "",
       date: "Built with React, Tailwind, NodeJs and Mongoose",
       status: "View project",
-      link: "https://sisters-backend.onrender.com"
+      link: "https://sisters-backend.fly.dev/"
     },
 
     {
