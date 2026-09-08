@@ -1,36 +1,6 @@
-// components/TradeOffer.jsx
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-const Aboutme = () => {
-    useEffect(() => {
-        AOS.init({ duration: 1000, once: true }); // once: true ensures it animates only once
-    }, []);
-
-    return (
-        <div id='about' className="bg-[#181A20] py-16 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-            <div
-                className="bg-[#24262B] rounded-2xl p-6 sm:p-8 md:p-10 lg:p-12 max-w-5xl mx-auto
-                  flex flex-col md:flex-row items-center justify-between shadow-xl
-                  border border-gray-700"
-                data-aos="fade-up"
-            >
-                {/* Right Section: Text and Button */}
-                <div className="flex-grow text-center md:text-left">
-                    <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4 text-center">
-                        ABOUT ME
-                    </h2>
-                    
-                    <p className="text-gray-300 text-lg text-center">
-                        Hi there! I’m a passionate Full Stack developer with a love for crafting intuitive and engaging web applications. With a background in information studies, I thrive on turning ideas into reality through code.
-
-                        I’m continuously learning and exploring new technologies. My goal is to create seamless user experiences while contributing to meaningful projects. I’m also passionate about empowering young women who look up to me, inspiring them to explore opportunities in tech and beyond. When I’m not coding, you can find me designing clothing, always looking for inspiration in the world around me. I believe in the power of collaboration and I am excited to connect with like-minded individuals. Let’s bring your ideas to life together!
-                    </p>
-                </div>
-            </div>
-        </div>
-    );
-};
-
-export default Aboutme;
+export default function Aboutme() {
+  return <section id="about" className="shell about-section section-space">
+    <div><p className="eyebrow">02 / A LITTLE ABOUT ME</p><h2>A developer’s mind.<br /><em>A creative’s heart.</em></h2><div className="about-art" aria-hidden="true"><span>curiosity</span><b>✳</b><span>meets code</span></div></div>
+    <div className="about-copy"><p className="large-copy">I’m Mawuse, a full stack developer who loves turning complex ideas into simple, human experiences.</p><p>My background in information studies shaped the way I think about people and technology. Today, I bring that perspective to every interface I design and every application I build.</p><p>Beyond the screen, you’ll find me designing clothing and finding inspiration in everyday life. I’m also passionate about encouraging young women to explore their own possibilities in tech.</p><p>Always learning. Always creating. Always up for a meaningful collaboration.</p><a className="text-link" href="https://www.linkedin.com/in/mawuse-akpeke-aa28a8245/" target="_blank" rel="noopener noreferrer">Get to know me on LinkedIn <span aria-hidden="true">↗</span></a></div>
+  </section>;
+}
