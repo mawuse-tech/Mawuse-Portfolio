@@ -188,11 +188,12 @@ em {
 }
 .portrait-frame {
   overflow:hidden;
-  border-radius:180px 180px 8px 8px;
+  border-radius:46% 54% 42% 58% / 42% 44% 56% 58%;
   background:#e2dcd4;
   aspect-ratio:0.88;
   transform:rotate(2deg);
   border:7px solid #ede8df;
+  box-shadow:0 18px 40px #51365018, 0 0 0 1px #d8c9d8;
 }
 .portrait-frame img {
   width:100%;
@@ -398,6 +399,24 @@ h2 {
   border-radius:4px;
   padding:6px 9px;
   color:#655c68;
+}
+.project-demo-login {
+  margin-top:18px;
+  padding:16px 18px;
+  border:1px solid #d8c9d8;
+  border-left:3px solid var(--plum);
+  border-radius:6px;
+  background:#eee6ee;
+  color:var(--plum);
+  font-size:13px;
+  line-height:1.7;
+}
+.project-demo-login p {
+  margin:4px 0 0;
+}
+.project-demo-login code {
+  font-weight:600;
+  overflow-wrap:anywhere;
 }
 .github-link {
   display:flex;
