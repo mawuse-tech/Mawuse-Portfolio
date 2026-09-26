@@ -1,5 +1,5 @@
 const skills = [
-  { number: '01', icon: '⌘', title: 'Frontend development', description: 'Responsive interfaces that feel as good as they look. Built with care, from layout to interaction.', tools: ['React', 'Vue', 'JavaScript', 'Tailwind CSS', 'Redux'] },
+  { number: '01', icon: '⌘', title: 'Frontend development', description: 'Responsive interfaces that feel as good as they look. Built with care, from layout to interaction.', tools: ['React', 'Next.js', 'Vue', 'JavaScript', 'Tailwind CSS', 'Redux'] },
   { number: '02', icon: '⌁', title: 'Backend development', description: 'The thoughtful foundations behind the experience. APIs and server logic that bring applications to life.', tools: ['Node.js', 'Express.js', 'REST APIs'] },
   { number: '03', icon: '▤', title: 'Databases & data', description: 'Well-organized data for dependable applications, with the right structure for the problem at hand.', tools: ['MongoDB', 'Mongoose', 'PostgreSQL', 'MySQL'] },
 ];
