@@ -5,7 +5,7 @@ import fin from '../assets/fin.png';
 
 const projects = [
   { image: shift, title: 'Shift Scheduler', category: 'PRODUCTIVITY · WEB APPLICATION', description: 'Helping teams organize shifts, manage team members, and keep track of their schedules.', tags: ['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'PostgreSQL'], demoLogin: { email: 'admin@123.com', password: '123456' }, link: 'https://shift-sheduler.onrender.com/', color: 'blue' },
-  { image: two, title: 'Eagle Park Innovations', category: 'AGRICULTURE · E-COMMERCE', description: 'Bringing agriculture online with a full-stack shopping experience and integrated payments.', tags: ['React', 'Tailwind CSS', 'Mongoose', 'Paystack'], link: 'https://www.eagleparkinnovations.com/', color: 'sage' },
+  { image: two, title: 'Eagle Park Innovations', category: 'AGRICULTURE · E-COMMERCE', description: 'Bringing agriculture online with a full-stack shopping experience and integrated payments.', tags: ['React', 'Tailwind CSS', 'Mongoose', 'Paystack'], link: 'https://eagle-park.netlify.app/', color: 'sage' },
   { image: one, title: 'Sisters App', category: 'COMMUNITY · WEB APPLICATION', description: 'A full-stack application built with thoughtful interfaces and a connected backend.', tags: ['React', 'Tailwind CSS', 'Node.js', 'Mongoose'], link: 'https://sisters.onrender.com/', color: 'lavender' },
   { image: fin, title: 'Finance Tracker', category: 'FINANCE · WEB APPLICATION', description: 'Making everyday finances easier to follow through a clear, approachable tracking experience.', tags: ['Vue', 'Tailwind CSS', 'Node.js', 'Mongoose'], link: 'https://finance-tracker-wb99.onrender.com/', color: 'peach' },
 ];
