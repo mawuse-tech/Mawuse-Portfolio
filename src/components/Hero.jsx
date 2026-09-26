@@ -1,4 +1,4 @@
-import portrait from '../assets/mypic.png';
+import portrait from '../assets/chatmawuse.png';
 
 export default function Hero() {
   return <section id="home" className="shell hero">
