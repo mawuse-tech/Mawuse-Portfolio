@@ -1,5 +1,5 @@
 import one from '../assets/one.png';
-import two from '../assets/two.png';
+import two from '../assets/pic10.png';
 import shift from '../assets/shift.png';
 import fin from '../assets/fin.png';
 
